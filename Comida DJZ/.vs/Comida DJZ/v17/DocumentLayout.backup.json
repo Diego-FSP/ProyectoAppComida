@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|c:\\users\\lab15-pc01\\documents\\github\\proyectoappcomida\\comida djz\\comida djz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|solutionrelative:comida djz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\Comida DJZ\\Form1.cs",
+              "RelativeDocumentMoniker": "Comida DJZ\\Form1.cs",
+              "ToolTip": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\Comida DJZ\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Comida DJZ\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T13:04:04.744Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

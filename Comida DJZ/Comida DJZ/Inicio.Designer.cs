@@ -31,8 +31,8 @@
             this.Titulo = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.Contraseña = new System.Windows.Forms.TextBox();
             this.BotonAcceso = new System.Windows.Forms.Button();
+            this.Contraseña = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -66,18 +66,10 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.Orange;
             this.panel1.Controls.Add(this.BotonAcceso);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(800, 450);
             this.panel1.TabIndex = 2;
-            // 
-            // Contraseña
-            // 
-            this.Contraseña.Location = new System.Drawing.Point(322, 199);
-            this.Contraseña.Name = "Contraseña";
-            this.Contraseña.Size = new System.Drawing.Size(183, 20);
-            this.Contraseña.TabIndex = 3;
             // 
             // BotonAcceso
             // 
@@ -88,6 +80,15 @@
             this.BotonAcceso.TabIndex = 0;
             this.BotonAcceso.Text = "Iniciar";
             this.BotonAcceso.UseVisualStyleBackColor = true;
+            this.BotonAcceso.Click += new System.EventHandler(this.BotonAcceso_Click);
+            // 
+            // Contraseña
+            // 
+            this.Contraseña.Location = new System.Drawing.Point(322, 199);
+            this.Contraseña.Name = "Contraseña";
+            this.Contraseña.Size = new System.Drawing.Size(183, 20);
+            this.Contraseña.TabIndex = 3;
+            this.Contraseña.Visible = false;
             // 
             // Inicio
             // 
@@ -96,8 +97,8 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Titulo);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.Contraseña);
+            this.Controls.Add(this.panel1);
             this.Name = "Inicio";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

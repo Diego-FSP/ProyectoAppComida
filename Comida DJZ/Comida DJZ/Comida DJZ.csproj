@@ -53,6 +53,12 @@
     <Compile Include="Inicio.Designer.cs">
       <DependentUpon>Inicio.cs</DependentUpon>
     </Compile>
+    <Compile Include="PagServicio\PagModPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PagServicio\PagModPedido.Designer.cs">
+      <DependentUpon>PagModPedido.cs</DependentUpon>
+    </Compile>
     <Compile Include="PagServicio\SeleccionarComida.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +82,9 @@
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PagServicio\PagModPedido.resx">
+      <DependentUpon>PagModPedido.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PagServicio\SeleccionarComida.resx">
       <DependentUpon>SeleccionarComida.cs</DependentUpon>
     </EmbeddedResource>
@@ -89,6 +98,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SistAdministracion.resx">
+      <DependentUpon>SistAdministracion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SistServicio.resx">
       <DependentUpon>SistServicio.cs</DependentUpon>
     </EmbeddedResource>
@@ -105,7 +117,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="IMG\Iconos\icono.jpg" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="IMG\Iconos\Admin.png" />
   </ItemGroup>

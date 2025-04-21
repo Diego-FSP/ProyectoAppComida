@@ -8,14 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Comida_DJZ
+namespace Comida_DJZ.PagServicio
 {
-    public partial class SistAdministracion : Form
+    public partial class PagModPedido : Form
     {
-        public SistAdministracion()
+        public PagModPedido()
         {
             InitializeComponent();
-
         }
     }
 }

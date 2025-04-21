@@ -10,3 +10,17 @@ C:\Users\Diego Fabricio\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ
 C:\Users\Diego Fabricio\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\obj\Debug\Comida DJZ.pdb
 C:\Users\Diego Fabricio\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\obj\Debug\Comida_DJZ.SistServicio.resources
 C:\Users\Diego Fabricio\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\obj\Debug\Comida_DJZ.PagServicio.SeleccionarComida.resources
+C:\Users\Lab15-PC01\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\Comida DJZ.exe.config
+C:\Users\Lab15-PC01\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\Comida DJZ.exe
+C:\Users\Lab15-PC01\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\Comida DJZ.pdb
+C:\Users\Lab15-PC01\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\obj\Debug\Comida DJZ.csproj.AssemblyReference.cache
+C:\Users\Lab15-PC01\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\obj\Debug\Comida_DJZ.Inicio.resources
+C:\Users\Lab15-PC01\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\obj\Debug\Comida_DJZ.PagServicio.SeleccionarComida.resources
+C:\Users\Lab15-PC01\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\obj\Debug\Comida_DJZ.Properties.Resources.resources
+C:\Users\Lab15-PC01\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\obj\Debug\Comida_DJZ.SistServicio.resources
+C:\Users\Lab15-PC01\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\obj\Debug\Comida DJZ.csproj.GenerateResource.cache
+C:\Users\Lab15-PC01\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\obj\Debug\Comida DJZ.csproj.CoreCompileInputs.cache
+C:\Users\Lab15-PC01\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\obj\Debug\Comida DJZ.exe
+C:\Users\Lab15-PC01\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\obj\Debug\Comida DJZ.pdb
+C:\Users\Lab15-PC01\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\obj\Debug\Comida_DJZ.SistAdministracion.resources
+C:\Users\Lab15-PC01\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\obj\Debug\Comida_DJZ.PagServicio.PagModPedido.resources

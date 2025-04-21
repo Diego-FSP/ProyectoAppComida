@@ -13,5 +13,6 @@ namespace Comida_DJZ.Clases
         public string Apellido;
         public int IDComida;
         public int Cantidad;
+        public bool Llevar;
     }
 }

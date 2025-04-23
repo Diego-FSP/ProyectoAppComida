@@ -1,35 +1,50 @@
-DROP TABLE IF EXISTS calificacion;
-DROP TABLE IF EXISTS ticked;
-DROP TABLE IF EXISTS Comida;
+Drop database if exists sistema_de_comida;
+Create database sistema_de_comida;
+use sistema_de_comida;
 
--- Tabla: Comida
 CREATE TABLE Comida (
-    idComida INT PRIMARY KEY,
-    Nombre VARCHAR(21),
-    imagen BLOB, -- datebit no existe; asumo que es imagen binaria
-    cantidad INT,
+    idComida INT AUTO_INCREMENT PRIMARY KEY,
+    Nombre VARCHAR(50),
+    Cantidad INT,
     Precio DOUBLE,
-    mesa BOOLEAN,
-    descripcion VARCHAR(21)
+    Descripcion VARCHAR(100)
 );
 
--- Tabla: ticked
-CREATE TABLE ticked (
-    idTicked INT PRIMARY KEY,
-    Nombre VARCHAR(21),
-    Apellido VARCHAR(21),
+CREATE TABLE Bebidas (
+    idBebidas INT AUTO_INCREMENT PRIMARY KEY,
+    Nombre VARCHAR(50),
+    Cantidad INT,
+    Precio DOUBLE,
+    Descripcion VARCHAR(100)
+);
+
+CREATE TABLE Postres (
+    idPostres INT AUTO_INCREMENT PRIMARY KEY,
+    Nombre VARCHAR(50),
+    Cantidad INT,
+    Precio DOUBLE,
+    Descripcion VARCHAR(100)
+);
+
+CREATE TABLE Ticked (
+    idTicked INT AUTO_INCREMENT PRIMARY KEY,
+    Nombre VARCHAR(50),
+    Apellido VARCHAR(50),
     DNI INT,
     idComida INT,
+    idBebidas INT,
+    idPostres INT,
     PrecioTotal DOUBLE,
-    Estado VARCHAR(21),
-    mesa BOOLEAN,
-    FOREIGN KEY (idComida) REFERENCES Comida(idComida)
+    Estado VARCHAR(50),
+    Mesa BOOLEAN,
+    FOREIGN KEY (idComida) REFERENCES Comida(idComida),
+    FOREIGN KEY (idBebidas) REFERENCES Bebidas(idBebidas),
+    FOREIGN KEY (idPostres) REFERENCES Postres(idPostres)
 );
 
--- Tabla: calificacion
 CREATE TABLE calificacion (
     idComida INT,
     Valor INT,
-    cliente VARCHAR(21),
+    Cliente VARCHAR(21),
     FOREIGN KEY (idComida) REFERENCES Comida(idComida)
 );

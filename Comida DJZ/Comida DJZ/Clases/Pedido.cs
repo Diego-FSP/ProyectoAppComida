@@ -15,5 +15,6 @@ namespace Comida_DJZ.Clases
         public int Cantidad=0;
         public bool Llevar=false;
         public string Descripcion;
+        public int dupla;
     }
 }

@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\Comida.cs" />
     <Compile Include="Clases\Pedido.cs" />
     <Compile Include="Inicio.cs">
       <SubType>Form</SubType>
@@ -122,6 +123,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="IMG\Iconos\Admin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="IMG\Comidas\IDComida 2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

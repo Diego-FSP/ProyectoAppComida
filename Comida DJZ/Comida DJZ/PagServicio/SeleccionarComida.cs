@@ -14,15 +14,72 @@ namespace Comida_DJZ.PagServicio
     public partial class SeleccionarComida : Form
     {
         public SistServicio Padre;
-        List<Pedido> Compra;
+        public List<Comida> comidas = new List<Comida>();
         public SeleccionarComida(SistServicio padre)
         {
             InitializeComponent();
             Padre = padre;
             BotonO();
+            var c1 = new Comida()
+            {
+                Nombre = "Pollo",
+                IDComida = 1,
+                Cantidad = 2,
+                precio = 10000.00,
+                Descripcion="es rico"
+            };
+            var c2 = new Comida()
+            {
+                Nombre = "Fideos",
+                IDComida = 1,
+                Cantidad = 2,
+                precio = 123823.23,
+                Descripcion = "aceitoso"
+            };
+            var c3 = new Comida()
+            {
+                Nombre = "Asado",
+                IDComida = 1,
+                Cantidad = 1,
+                precio = 23124.1,
+                Descripcion = "es rico"
+            };
+            var c4 = new Comida()
+            {
+                Nombre = "Pollo a la brasa",
+                IDComida = 1,
+                Cantidad = 4,
+                precio = 21431.32,
+                Descripcion = "es rico"
+            };
+
+            
+            comidas.Add(c1);
+            comidas.Add(c2);
+            comidas.Add(c3);
+            comidas.Add(c4);
             //Padre.B1.Visible = false;
             //Padre.B2.Visible = false;
+            MostrarComida();
         }
+
+        void MostrarComida()
+        {
+            foreach(Comida c in comidas)
+            {
+                object imagen = @"IMG\Comidas\IDComida 2.png";
+                ListaC.Rows.Add
+                    (
+                        imagen,
+                        c.Nombre,
+                        c.Cantidad,
+                        c.precio,
+                        c.Descripcion
+                );
+                
+            }
+        }
+
         private void BotonO()
         {
             Padre.B1.Size = new Size(80, 30);
@@ -36,6 +93,35 @@ namespace Comida_DJZ.PagServicio
         private void SeleccionarComida_SizeChanged(object sender, EventArgs e)
         {
             BotonO();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void ImagenC(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+            switch (this.ListaC.Columns[e.ColumnIndex].Name)
+            {
+                case "Imagen":
+                    if(e.Value!=null)
+                        try
+                        {
+                            e.Value = Image.FromFile(e.Value.ToString());
+                        }
+                        catch(System.IO.FileNotFoundException exc)
+                        {
+                            e.Value = null;
+                        }
+                    break;
+            }
+                
         }
     }
 }

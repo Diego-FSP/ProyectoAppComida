@@ -56,7 +56,7 @@
             this.Encabezado.Dock = System.Windows.Forms.DockStyle.Top;
             this.Encabezado.Location = new System.Drawing.Point(0, 0);
             this.Encabezado.Name = "Encabezado";
-            this.Encabezado.Size = new System.Drawing.Size(800, 100);
+            this.Encabezado.Size = new System.Drawing.Size(800, 86);
             this.Encabezado.TabIndex = 1;
             // 
             // NEstado
@@ -87,13 +87,14 @@
             this.B2.TabIndex = 3;
             this.B2.Text = "Calificar";
             this.B2.UseVisualStyleBackColor = true;
+            this.B2.Click += new System.EventHandler(this.B2_Click);
             // 
             // Pagina
             // 
             this.Pagina.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Pagina.Location = new System.Drawing.Point(0, 0);
+            this.Pagina.Location = new System.Drawing.Point(0, 86);
             this.Pagina.Name = "Pagina";
-            this.Pagina.Size = new System.Drawing.Size(800, 572);
+            this.Pagina.Size = new System.Drawing.Size(800, 405);
             this.Pagina.TabIndex = 4;
             // 
             // SistServicio
@@ -102,10 +103,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 572);
             this.Controls.Add(this.B2);
-            this.Controls.Add(this.Encabezado);
             this.Controls.Add(this.B1);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.Pagina);
+            this.Controls.Add(this.Encabezado);
+            this.Controls.Add(this.panel2);
             this.Name = "SistServicio";
             this.Text = "SistServicio";
             this.Encabezado.ResumeLayout(false);

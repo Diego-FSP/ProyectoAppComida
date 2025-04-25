@@ -33,6 +33,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.BotonAcceso = new System.Windows.Forms.Button();
             this.Contraseña = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -43,7 +44,7 @@
             this.Titulo.BackColor = System.Drawing.Color.Orange;
             this.Titulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Titulo.ForeColor = System.Drawing.SystemColors.Control;
-            this.Titulo.Location = new System.Drawing.Point(301, 51);
+            this.Titulo.Location = new System.Drawing.Point(301, 99);
             this.Titulo.Name = "Titulo";
             this.Titulo.Size = new System.Drawing.Size(204, 42);
             this.Titulo.TabIndex = 0;
@@ -65,7 +66,9 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Orange;
+            this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.BotonAcceso);
+            this.panel1.Controls.Add(this.Titulo);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(800, 450);
@@ -90,19 +93,31 @@
             this.Contraseña.TabIndex = 3;
             this.Contraseña.Visible = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Orange;
+            this.label1.Font = new System.Drawing.Font("Segoe Print", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.Control;
+            this.label1.Location = new System.Drawing.Point(332, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(156, 64);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Rafood";
+            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.Titulo);
             this.Controls.Add(this.Contraseña);
             this.Controls.Add(this.panel1);
             this.Name = "Inicio";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -115,6 +130,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TextBox Contraseña;
         private System.Windows.Forms.Button BotonAcceso;
+        private System.Windows.Forms.Label label1;
     }
 }
 

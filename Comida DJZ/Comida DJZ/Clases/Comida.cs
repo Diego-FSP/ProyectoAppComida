@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Comida_DJZ.Clases
 {
-    public class Comida
+    public class MenuOBJ
     {
         public int IDComida { get; set; }
         public string Nombre { get; set; }

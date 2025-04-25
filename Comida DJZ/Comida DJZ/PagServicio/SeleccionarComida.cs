@@ -14,13 +14,13 @@ namespace Comida_DJZ.PagServicio
     public partial class SeleccionarComida : Form
     {
         public SistServicio Padre;
-        public List<Comida> comidas = new List<Comida>();
+        public List<MenuOBJ> comidas = new List<MenuOBJ>();
         public SeleccionarComida(SistServicio padre)
         {
             InitializeComponent();
             Padre = padre;
             BotonO();
-            var c1 = new Comida()
+            var c1 = new MenuOBJ()
             {
                 Nombre = "Pollo",
                 IDComida = 1,
@@ -28,7 +28,7 @@ namespace Comida_DJZ.PagServicio
                 precio = 10000.00,
                 Descripcion="es rico"
             };
-            var c2 = new Comida()
+            var c2 = new MenuOBJ()
             {
                 Nombre = "Fideos",
                 IDComida = 1,
@@ -36,7 +36,7 @@ namespace Comida_DJZ.PagServicio
                 precio = 123823.23,
                 Descripcion = "aceitoso"
             };
-            var c3 = new Comida()
+            var c3 = new MenuOBJ()
             {
                 Nombre = "Asado",
                 IDComida = 1,
@@ -44,7 +44,7 @@ namespace Comida_DJZ.PagServicio
                 precio = 23124.1,
                 Descripcion = "es rico"
             };
-            var c4 = new Comida()
+            var c4 = new MenuOBJ()
             {
                 Nombre = "Pollo a la brasa",
                 IDComida = 1,
@@ -65,7 +65,7 @@ namespace Comida_DJZ.PagServicio
 
         void MostrarComida()
         {
-            foreach(Comida c in comidas)
+            foreach(MenuOBJ c in comidas)
             {
                 object imagen = @"IMG\Comidas\IDComida 2.png";
                 ListaC.Rows.Add

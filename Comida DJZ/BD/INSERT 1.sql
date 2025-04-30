@@ -1,11 +1,11 @@
 -- Inserción de Menu
-INSERT INTO Menu (Nombre, Cantidad, Precio, Descripcion)
+INSERT INTO Menu (idMenu, Nombre, Cantidad, Precio, Descripcion)
 VALUES 
-('Empanadas', 30, 900.00, 'Carne cortada'),
-('Pollo Broster', 10, 1800.00, 'Crujiente y jugoso'),
-('Hamburguesa', 15, 1200.00, 'Clásica con queso'),
-('Salchipapa', 20, 1000.00, 'Papas con salchichas'),
-('Puré c/Milanesa', 12, 1700.00, 'Con salsa o sin salsa');
+(1,'Empanadas', 30, 900.00, 'Carne cortada'),
+(2,'Pollo Broster', 10, 1800.00, 'Crujiente y jugoso'),
+(3,'Hamburguesa', 15, 1200.00, 'Clásica con queso'),
+(4,'Salchipapa', 20, 1000.00, 'Papas con salchichas'),
+(5,'Puré c/Milanesa', 12, 1700.00, 'Con salsa o sin salsa');
 
 -- Inserción de ticket (usando idMenu = 3 que corresponde a 'Hamburguesa')
 INSERT INTO Ticked (Nombre, Apellido, DNI, idMenu, PrecioTotal, Estado, Mesa)

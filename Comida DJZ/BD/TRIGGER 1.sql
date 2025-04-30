@@ -7,10 +7,10 @@ AFTER INSERT ON Ticked
 FOR EACH ROW
 BEGIN
     -- Descontar stock de comida
-    IF NEW.idComida IS NOT NULL THEN
-        UPDATE Comida
+    IF NEW.idMenu IS NOT NULL THEN
+        UPDATE Menu
         SET Cantidad = Cantidad - 1
-        WHERE idComida = NEW.idComida;
+        WHERE idMenu = NEW.idMenu;
     END IF;
 END $$
 

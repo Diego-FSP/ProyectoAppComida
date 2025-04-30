@@ -1,5 +1,5 @@
--- Inserción de comidas
-INSERT INTO Comida (Nombre, Cantidad, Precio, Descripcion)
+-- Inserción de Menu
+INSERT INTO Menu (Nombre, Cantidad, Precio, Descripcion)
 VALUES 
 ('Empanadas', 30, 900.00, 'Carne cortada'),
 ('Pollo Broster', 10, 1800.00, 'Crujiente y jugoso'),
@@ -7,10 +7,14 @@ VALUES
 ('Salchipapa', 20, 1000.00, 'Papas con salchichas'),
 ('Puré c/Milanesa', 12, 1700.00, 'Con salsa o sin salsa');
 
--- Inserción de ticket (usando idComida = 3 que corresponde a 'Hamburguesa')
-INSERT INTO Ticked (Nombre, Apellido, DNI, idComida, PrecioTotal, Estado, Mesa)
+-- Inserción de ticket (usando idMenu = 3 que corresponde a 'Hamburguesa')
+INSERT INTO Ticked (Nombre, Apellido, DNI, idMenu, PrecioTotal, Estado, Mesa)
 VALUES ('Luis', 'Fernández', 45678912, 3, 900.00, 'Pagado', FALSE);
 
--- Inserción de calificación para la comida con idComida = 3
-INSERT INTO Calificacion (idComida, Valor, Cliente)
-VALUES (3, 5, 'Luis Fernández');
+-- Inserciones de pedidos
+INSERT INTO Pedido (idMenu, Cantidad, Observacion) VALUES
+(1, 2, 'Sin picante'),
+(2, 1, 'Extra crocante'),
+(3, 3, 'Sin cebolla'),
+(4, 1, 'Con mayonesa'),
+(5, 2, 'Con salsa blanca');

@@ -1,48 +1,32 @@
-Drop database if exists sistema_de_comida;
-Create database sistema_de_comida;
-use sistema_de_comida;
+DROP DATABASE IF EXISTS sistema_comida;
+CREATE DATABASE sistema_comida;
+USE sistema_comida;
 
+-- Tabla: Comida
 CREATE TABLE Comida (
-    idComida INT AUTO_INCREMENT PRIMARY KEY,
-    Nombre VARCHAR(50),
+    idComida INT PRIMARY KEY AUTO_INCREMENT,
+    Nombre VARCHAR(21),
     Cantidad INT,
     Precio DOUBLE,
-    Descripcion VARCHAR(100)
+    Descripcion VARCHAR(21)
 );
 
-CREATE TABLE Bebidas (
-    idBebidas INT AUTO_INCREMENT PRIMARY KEY,
-    Nombre VARCHAR(50),
-    Cantidad INT,
-    Precio DOUBLE,
-    Descripcion VARCHAR(100)
-);
-
-CREATE TABLE Postres (
-    idPostres INT AUTO_INCREMENT PRIMARY KEY,
-    Nombre VARCHAR(50),
-    Cantidad INT,
-    Precio DOUBLE,
-    Descripcion VARCHAR(100)
-);
-
+-- Tabla: Ticked
 CREATE TABLE Ticked (
-    idTicked INT AUTO_INCREMENT PRIMARY KEY,
-    Nombre VARCHAR(50),
-    Apellido VARCHAR(50),
+    idTicked INT PRIMARY KEY AUTO_INCREMENT,
+    Nombre VARCHAR(21),
+    Apellido VARCHAR(21),
     DNI INT,
     idComida INT,
-    idBebidas INT,
-    idPostres INT,
     PrecioTotal DOUBLE,
-    Estado VARCHAR(50),
+    Estado VARCHAR(21),
     Mesa BOOLEAN,
-    FOREIGN KEY (idComida) REFERENCES Comida(idComida),
-    FOREIGN KEY (idBebidas) REFERENCES Bebidas(idBebidas),
-    FOREIGN KEY (idPostres) REFERENCES Postres(idPostres)
+    FOREIGN KEY (idComida) REFERENCES Comida(idComida)
 );
 
-CREATE TABLE calificacion (
+-- Tabla: Calificacion
+CREATE TABLE Calificacion (
+    idCalificacion INT PRIMARY KEY AUTO_INCREMENT,
     idComida INT,
     Valor INT,
     Cliente VARCHAR(21),

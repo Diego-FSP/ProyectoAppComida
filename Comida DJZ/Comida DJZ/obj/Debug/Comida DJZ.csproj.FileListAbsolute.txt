@@ -31,3 +31,8 @@ C:\Users\Lab15-PC01\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin
 C:\Users\Lab15-PC01\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\IMG\Comidas\IDComida 3.png
 C:\Users\Lab15-PC01\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\IMG\Comidas\IDComida 4.png
 C:\Users\Lab15-PC01\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\IMG\Comidas\IDComida 5.png
+C:\Users\Diego Fabricio\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\IMG\Comidas\IDComida 1.png
+C:\Users\Diego Fabricio\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\IMG\Comidas\IDComida 2.png
+C:\Users\Diego Fabricio\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\IMG\Comidas\IDComida 3.png
+C:\Users\Diego Fabricio\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\IMG\Comidas\IDComida 4.png
+C:\Users\Diego Fabricio\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\IMG\Comidas\IDComida 5.png

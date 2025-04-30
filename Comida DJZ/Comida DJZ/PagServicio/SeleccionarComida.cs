@@ -61,11 +61,7 @@ namespace Comida_DJZ.PagServicio
             comidas.Add(c1);
             comidas.Add(c2);
             comidas.Add(c3);
-            comidas.Add(c4);
-            ListaC.Rows[0].Height = 100;
-            ListaC.Columns[0].Width=40;
-            
-            
+            comidas.Add(c4);     
             //Padre.B1.Visible = false;
             //Padre.B2.Visible = false;
             MostrarComida();
@@ -85,8 +81,7 @@ namespace Comida_DJZ.PagServicio
                         c.precio,
                         c.Descripcion
                 );
-                
-                 
+                ListaC.Rows[c.IDComida-1].Height = 200;
 
             }
         }
@@ -104,17 +99,15 @@ namespace Comida_DJZ.PagServicio
         private void SeleccionarComida_SizeChanged(object sender, EventArgs e)
         {
             BotonO();
-        }
+            for(int t= comidas.Count(); t>0;t--)
+            {
+                ListaC.Columns[t].Width = ListaC.Width/6;
+            }
+            ListaC.Columns[0].Width = ListaC.Width / 4;
+            float c = ListaC.Width/76;
+            ListaC.DefaultCellStyle.Font = new Font(ListaC.DefaultCellStyle.Font.SystemFontName,c);
+        }//[Font: Name=Microsoft Sans Serif, Size=8.25, Units=3, GdiCharSet=1, GdiVerticalFont=False]
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
 
         private void ImagenC(object sender, DataGridViewCellFormattingEventArgs e)
         {

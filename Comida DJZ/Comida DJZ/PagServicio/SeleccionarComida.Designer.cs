@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.ListaC = new System.Windows.Forms.DataGridView();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Pn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -44,7 +45,7 @@
             // ListaC
             // 
             this.ListaC.BackgroundColor = System.Drawing.Color.Beige;
-            this.ListaC.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.ListaC.ColumnHeadersHeight = 30;
             this.ListaC.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Imagen,
             this.Nombre,
@@ -54,6 +55,16 @@
             this.ListaC.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ListaC.Location = new System.Drawing.Point(0, 0);
             this.ListaC.Name = "ListaC";
+            this.ListaC.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ListaC.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.ListaC.RowHeadersWidth = 40;
             this.ListaC.Size = new System.Drawing.Size(631, 450);
             this.ListaC.TabIndex = 0;
             this.ListaC.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.ImagenC);
@@ -85,13 +96,16 @@
             // 
             // Imagen
             // 
-            this.Imagen.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCellsExceptHeader;
+            this.Imagen.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.Imagen.FillWeight = 200F;
             this.Imagen.Frozen = true;
             this.Imagen.HeaderText = "IMG";
+            this.Imagen.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.Imagen.MinimumWidth = 200;
             this.Imagen.Name = "Imagen";
             this.Imagen.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.Imagen.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.Imagen.Width = 21;
+            this.Imagen.Width = 200;
             // 
             // Nombre
             // 

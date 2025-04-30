@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Comida_DJZ.PagServicio
 {
@@ -15,11 +16,14 @@ namespace Comida_DJZ.PagServicio
     {
         public SistServicio Padre;
         public List<MenuOBJ> comidas = new List<MenuOBJ>();
+
+        
         public SeleccionarComida(SistServicio padre)
         {
             InitializeComponent();
             Padre = padre;
             BotonO();
+            
             var c1 = new MenuOBJ()
             {
                 Nombre = "Pollo",
@@ -31,7 +35,7 @@ namespace Comida_DJZ.PagServicio
             var c2 = new MenuOBJ()
             {
                 Nombre = "Fideos",
-                IDComida = 1,
+                IDComida = 2,
                 Cantidad = 2,
                 precio = 123823.23,
                 Descripcion = "aceitoso"
@@ -39,7 +43,7 @@ namespace Comida_DJZ.PagServicio
             var c3 = new MenuOBJ()
             {
                 Nombre = "Asado",
-                IDComida = 1,
+                IDComida = 3,
                 Cantidad = 1,
                 precio = 23124.1,
                 Descripcion = "es rico"
@@ -47,7 +51,7 @@ namespace Comida_DJZ.PagServicio
             var c4 = new MenuOBJ()
             {
                 Nombre = "Pollo a la brasa",
-                IDComida = 1,
+                IDComida = 4,
                 Cantidad = 4,
                 precio = 21431.32,
                 Descripcion = "es rico"
@@ -58,16 +62,21 @@ namespace Comida_DJZ.PagServicio
             comidas.Add(c2);
             comidas.Add(c3);
             comidas.Add(c4);
+            ListaC.Rows[0].Height = 100;
+            ListaC.Columns[0].Width=40;
+            
+            
             //Padre.B1.Visible = false;
             //Padre.B2.Visible = false;
             MostrarComida();
+            //ListaC.Columns["IMG"].DefaultCellStyle = DataGridViewImageCellLayout.Zoom;
         }
 
         void MostrarComida()
         {
             foreach(MenuOBJ c in comidas)
             {
-                object imagen = @"IMG\Comidas\IDComida 2.png";
+                object imagen = @"IMG\Comidas\IDComida "+c.IDComida+".png";
                 ListaC.Rows.Add
                     (
                         imagen,
@@ -77,6 +86,8 @@ namespace Comida_DJZ.PagServicio
                         c.Descripcion
                 );
                 
+                 
+
             }
         }
 
@@ -113,7 +124,8 @@ namespace Comida_DJZ.PagServicio
                     if(e.Value!=null)
                         try
                         {
-                            e.Value = Image.FromFile(e.Value.ToString());
+                            e.Value = System.Drawing.Image.FromFile(e.Value.ToString());
+                            
                         }
                         catch(System.IO.FileNotFoundException exc)
                         {
@@ -123,5 +135,18 @@ namespace Comida_DJZ.PagServicio
             }
                 
         }
+
+        
     }
 }
+/*
+private void CargarPNG(object sender, DataGridViewCellPaintingEventArgs e)
+{
+    if (e.ColumnIndex >= 0 && this.ListaC.Columns[e.ColumnIndex].Name == "IMG" && e.RowIndex >= 0)
+    {
+        e.Paint(e.CellBounds, DataGridViewPaintParts.All);
+        Icon i = new Icon(imagen.ToString());
+        e.Graphics.DrawIcon(i, , 30);
+    }
+}
+*/

@@ -125,7 +125,19 @@
     <None Include="IMG\Iconos\Admin.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="IMG\Comidas\IDComida 1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="IMG\Comidas\IDComida 2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="IMG\Comidas\IDComida 3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="IMG\Comidas\IDComida 4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="IMG\Comidas\IDComida 5.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

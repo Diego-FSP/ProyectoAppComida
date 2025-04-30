@@ -102,8 +102,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 572);
-            this.Controls.Add(this.B2);
             this.Controls.Add(this.B1);
+            this.Controls.Add(this.B2);
             this.Controls.Add(this.Pagina);
             this.Controls.Add(this.Encabezado);
             this.Controls.Add(this.panel2);
@@ -118,9 +118,9 @@
         #endregion
         private System.Windows.Forms.Panel Encabezado;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel Pagina;
         public System.Windows.Forms.Label NEstado;
         public System.Windows.Forms.Button B1;
         public System.Windows.Forms.Button B2;
+        private System.Windows.Forms.Panel Pagina;
     }
 }

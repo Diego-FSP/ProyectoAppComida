@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Clases\Comida.cs" />
     <Compile Include="Clases\Pedido.cs" />
+    <Compile Include="Clases\Ticked.cs" />
     <Compile Include="Inicio.cs">
       <SubType>Form</SubType>
     </Compile>

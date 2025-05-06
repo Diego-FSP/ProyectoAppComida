@@ -14,7 +14,7 @@ namespace Comida_DJZ
 {
     public partial class SistServicio : Form
     {
-        List<Pedido> Compra;
+        public List<Pedido> Compra= new List<Pedido>();
         Form Pag;
         public SistServicio(string nombre)
         {

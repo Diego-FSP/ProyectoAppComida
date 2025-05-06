@@ -51,7 +51,7 @@
             // 
             // Encabezado
             // 
-            this.Encabezado.BackColor = System.Drawing.Color.OrangeRed;
+            this.Encabezado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(178)))), ((int)(((byte)(44)))));
             this.Encabezado.Controls.Add(this.NEstado);
             this.Encabezado.Dock = System.Windows.Forms.DockStyle.Top;
             this.Encabezado.Location = new System.Drawing.Point(0, 0);
@@ -72,7 +72,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.OrangeRed;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(178)))), ((int)(((byte)(44)))));
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 491);
             this.panel2.Name = "panel2";

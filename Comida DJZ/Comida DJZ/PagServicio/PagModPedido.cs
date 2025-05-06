@@ -19,8 +19,8 @@ namespace Comida_DJZ.PagServicio
         {
             InitializeComponent();
             pedido = p;
-            Comida.Text = pedido.Nombre;
-            Descripcion.Text = pedido.Descripcion;
+            Comida.Text = pedido.Comida.Nombre;
+            Descripcion.Text = pedido.Comida.Descripcion;
             Cantidad.Text= pedido.Cantidad.ToString();
             padre = s;
         }
@@ -28,16 +28,9 @@ namespace Comida_DJZ.PagServicio
         {
             InitializeComponent();
             pedido = p;
-            Comida.Text = pedido.Nombre;
-            Descripcion.Text = pedido.Descripcion;
+            Comida.Text = pedido.Comida.Nombre;
+            Descripcion.Text = pedido.Comida.Descripcion;
             Cantidad.Text = pedido.Cantidad.ToString();
-        }
-        public void Guardar()
-        {
-            if (Llevar.Text == "Si")
-                pedido.Llevar = true;
-            else
-                pedido.Llevar = false;
         }
 
         private void MasC_Click(object sender, EventArgs e)
@@ -48,22 +41,14 @@ namespace Comida_DJZ.PagServicio
 
         private void MenosC_Click(object sender, EventArgs e)
         {
-            pedido.Cantidad--;
-            Cantidad.Text = pedido.Cantidad.ToString();
+            if (pedido.Cantidad > 0)
+            {
+                pedido.Cantidad--;
+                if (pedido.Cantidad == 0)
+                    MenosC.Visible = false;
+                Cantidad.Text = pedido.Cantidad.ToString();
+            }
         }
 
-        private void Llevar_Click(object sender, EventArgs e)
-        {
-            if(pedido.Llevar)
-            {
-                Llevar.Text = "No";
-                pedido.Llevar = false;
-            }
-            else
-            {
-                Llevar.Text = "Si";
-                pedido.Llevar = true;
-            }
-        }
     }
 }

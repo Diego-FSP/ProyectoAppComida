@@ -13,5 +13,6 @@ namespace Comida_DJZ.Clases
         public int Cantidad { get; set; }
         public double precio { get; set; }
         public string Descripcion { get; set; }
+        public object IMG { get; set; }
     }
 }

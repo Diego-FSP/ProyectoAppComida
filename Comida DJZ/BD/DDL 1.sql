@@ -3,31 +3,37 @@ DROP DATABASE IF EXISTS sistema_de_comida;
 CREATE DATABASE sistema_de_comida;
 USE sistema_de_comida;
 
--- Crear tabla Menu
-CREATE TABLE Menu (
-    idMenu INT PRIMARY KEY AUTO_INCREMENT,
-    Nombre VARCHAR(21),
-    Cantidad INT,
-    Precio DOUBLE,
-    Descripcion VARCHAR(50)
+-- Crear tabla TipoM
+CREATE TABLE TipoM (
+    IDTipoM INT PRIMARY KEY AUTO_INCREMENT,
+    Nombre VARCHAR(21) NOT NULL
 );
 
-CREATE TABLE Ticked (
-    idTicked INT PRIMARY KEY AUTO_INCREMENT,
-    Nombre VARCHAR(21),
-    Apellido VARCHAR(21),
-    DNI INT,
-    idMenu INT,
-    PrecioTotal DOUBLE,
-    Estado VARCHAR(21),
-    Mesa BOOLEAN,
-    FOREIGN KEY (idMenu) REFERENCES Menu(idMenu)
+-- Actualizar tabla Menu si aún no tiene la FK (en caso de que no lo hayas hecho ya)
+CREATE TABLE Menu (
+    idMenu INT PRIMARY KEY AUTO_INCREMENT,
+    Nombre VARCHAR(21) NOT NULL,
+    Cantidad INT NOT NULL,
+    Precio DOUBLE NOT NULL,
+    Descripcion VARCHAR(255),
+    IDTipo INT,
+    FOREIGN KEY (IDTipo) REFERENCES TipoM(IDTipoM)
 );
 
 CREATE TABLE Pedido (
     idPedido INT PRIMARY KEY AUTO_INCREMENT,
+    PrecioTotal DOUBLE,
     idMenu INT,
-    Cantidad INT,
-    Observacion VARCHAR(100),
+    cantidad INT,
     FOREIGN KEY (idMenu) REFERENCES Menu(idMenu)
 );
+
+CREATE TABLE Ticked (
+    idTicked INT PRIMARY KEY AUTO_INCREMENT,
+    idPedido INT,
+    Nombre VARCHAR(21),
+    mesa BOOLEAN,
+    hora DATETIME,
+    FOREIGN KEY (idPedido) REFERENCES Pedido(idPedido)
+);
+

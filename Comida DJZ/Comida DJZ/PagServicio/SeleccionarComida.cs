@@ -17,55 +17,16 @@ namespace Comida_DJZ.PagServicio
         public SistServicio Padre;
         public List<MenuOBJ> comidas = new List<MenuOBJ>();
         
-        public SeleccionarComida(SistServicio padre)
+        public SeleccionarComida(SistServicio p)
         {
             InitializeComponent();
-            Padre = padre;
-            BotonO();
-            
-            var c1 = new MenuOBJ()
-            {
-                Nombre = "Empanadas",
-                IDComida = 1,
-                Cantidad = 30,
-                precio = 10000.00,
-                Descripcion= "Carne cortada"
-            };
-            var c2 = new MenuOBJ()
-            {
-                Nombre = "Pollo Broster",
-                IDComida = 2,
-                Cantidad = 2,
-                precio = 123823.23,
-                Descripcion = "Crujiente y jugoso"
-            };
-            var c3 = new MenuOBJ()
-            {
-                Nombre = "Hamburguesa",
-                IDComida = 3,
-                Cantidad = 1,
-                precio = 23124.1,
-                Descripcion = "Clásica con queso"
-            };
-            var c4 = new MenuOBJ()
-            {
-                Nombre = "Salchipapa",
-                IDComida = 4,
-                Cantidad = 4,
-                precio = 21431.32,
-                Descripcion = "Con salsa o sin salsa"
-            };
-
-            
-            comidas.Add(c1);
-            comidas.Add(c2);
-            comidas.Add(c3);
-            comidas.Add(c4);     
-            //Padre.B1.Visible = false;
-            //Padre.B2.Visible = false;
+            Padre = p;
+            p.estado = new ServSeleccionarComida();
+            BD();
             MostrarComida();
             MostrarListaP();
             //ListaC.Columns["IMG"].DefaultCellStyle = DataGridViewImageCellLayout.Zoom;
+
         }
 
         void MostrarComida()
@@ -89,22 +50,16 @@ namespace Comida_DJZ.PagServicio
 
         private void MostrarListaP()
         {
-            if(Padre.Compra != null)
-            foreach (Pedido p in Padre.Compra)
-                ListaPP.Rows.Add(
-                    p.dupla,
-                    p.Comida.IMG
-                    );
+            if (Padre.Compra != null)
+                foreach (Pedido p in Padre.Compra)
+                {
+                    Padre.ListaPP.Rows.Add(
+                        p.dupla,
+                        p.Comida.IMG
+                        );
+                }
         }
 
-        private void BotonO()
-        {
-            Padre.B1.Size = new Size(80, 30);
-            Padre.B2.Size = new Size(80, 30);
-            Padre.B1.Location= new Point(Padre.B1.Location.X, Padre.Height-60);
-            Padre.B2.Location = new Point(Padre.B2.Location.X, Padre.Height-60);
-            //B1.= new Point(21);
-        }
         Form Pagina;
         private void ListaCOP()
         {
@@ -122,7 +77,6 @@ namespace Comida_DJZ.PagServicio
         
         private void SeleccionarComida_SizeChanged(object sender, EventArgs e)
         {
-            BotonO();
             ListaCOP();
         }//DataGridViewCellStyle { BackColor=Color [Beige], ForeColor=Color [A=255, R=192, G=64, B=0], SelectionBackColor=Color [A=255, R=243, G=198, B=35], Font=[Font: Name=Lucida Handwriting, Size=8.25, Units=3, GdiCharSet=0, GdiVerticalFont=False], Alignment=MiddleCenter } Microsoft YaHei
 
@@ -157,17 +111,67 @@ namespace Comida_DJZ.PagServicio
                     p.IDPedido = 1;
                     p.PrecioF = c.precio;
                     p.dupla = Padre.Compra.Count;
+                    byte condicion = 0;
+                    if (Padre.Compra != null)
+                        foreach (var co in Padre.Compra)
+                            if (co.Comida.IDComida == c.IDComida)
+                                condicion++;
 
-                    //if(Padre.Compra!=null)
-                    //foreach (var co in Padre.Compra)
-                    //if(co.Comida.IDComida!=c.IDComida)
-                    Padre.Compra.Add(p);
+                    if (condicion==0)
+                                Padre.Compra.Add(p);
                 }
-            ListaPP.Rows.Clear();
-            ListaPP.ClearSelection();
+            
+            Padre.ListaPP.Rows.Clear();
+            Padre.ListaPP.ClearSelection();
+            Padre.ListaPP.Visible = true;
             MostrarListaP();
+            Padre.B1.Visible = true;
+            Padre.B2.Visible = true;
+        }
+        void BD()
+        {
+            var c1 = new MenuOBJ()
+            {
+                Nombre = "Empanadas",
+                IDComida = 1,
+                Cantidad = 30,
+                precio = 10000.00,
+                Descripcion = "Carne cortada"
+            };
+            var c2 = new MenuOBJ()
+            {
+                Nombre = "Pollo Broster",
+                IDComida = 2,
+                Cantidad = 2,
+                precio = 123823.23,
+                Descripcion = "Crujiente y jugoso"
+            };
+            var c3 = new MenuOBJ()
+            {
+                Nombre = "Hamburguesa",
+                IDComida = 3,
+                Cantidad = 1,
+                precio = 23124.1,
+                Descripcion = "Clásica con queso"
+            };
+            var c4 = new MenuOBJ()
+            {
+                Nombre = "Salchipapa",
+                IDComida = 4,
+                Cantidad = 4,
+                precio = 21431.32,
+                Descripcion = "Con salsa o sin salsa"
+            };
+
+
+            comidas.Add(c1);
+            comidas.Add(c2);
+            comidas.Add(c3);
+            comidas.Add(c4);
         }
     }
+
+    
 }
 /*
 private void CargarPNG(object sender, DataGridViewCellPaintingEventArgs e)

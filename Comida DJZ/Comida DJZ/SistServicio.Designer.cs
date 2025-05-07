@@ -51,7 +51,7 @@
             // 
             // Encabezado
             // 
-            this.Encabezado.BackColor = System.Drawing.Color.OrangeRed;
+            this.Encabezado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(178)))), ((int)(((byte)(44)))));
             this.Encabezado.Controls.Add(this.NEstado);
             this.Encabezado.Dock = System.Windows.Forms.DockStyle.Top;
             this.Encabezado.Location = new System.Drawing.Point(0, 0);
@@ -72,7 +72,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.OrangeRed;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(178)))), ((int)(((byte)(44)))));
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 491);
             this.panel2.Name = "panel2";
@@ -102,8 +102,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 572);
-            this.Controls.Add(this.B2);
             this.Controls.Add(this.B1);
+            this.Controls.Add(this.B2);
             this.Controls.Add(this.Pagina);
             this.Controls.Add(this.Encabezado);
             this.Controls.Add(this.panel2);
@@ -118,9 +118,9 @@
         #endregion
         private System.Windows.Forms.Panel Encabezado;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel Pagina;
         public System.Windows.Forms.Label NEstado;
         public System.Windows.Forms.Button B1;
         public System.Windows.Forms.Button B2;
+        private System.Windows.Forms.Panel Pagina;
     }
 }

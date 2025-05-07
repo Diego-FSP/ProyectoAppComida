@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Comida_DJZ.Clases;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,11 +13,13 @@ namespace Comida_DJZ
 {
     public partial class Inicio : Form
     {
+        ConexionBD BD = new ConexionBD();
         private Form estado;
         bool Cliente = true;
         public Inicio()
         {
             InitializeComponent();
+            BD.btnProbarConexion_Click();
         }
 
         private void Titulo_Click(object sender, EventArgs e)

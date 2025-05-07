@@ -32,6 +32,7 @@ namespace Comida_DJZ.PagServicio
             Comida.Text = pedido.Comida.Nombre;
             Descripcion.Text = pedido.Comida.Descripcion;
             Cantidad.Text = pedido.Cantidad.ToString();
+
         }
 
         private void MasC_Click(object sender, EventArgs e)

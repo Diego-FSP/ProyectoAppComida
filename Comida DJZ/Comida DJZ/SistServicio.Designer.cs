@@ -28,26 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.B1 = new System.Windows.Forms.Button();
             this.Encabezado = new System.Windows.Forms.Panel();
             this.NEstado = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.B2 = new System.Windows.Forms.Button();
             this.Pagina = new System.Windows.Forms.Panel();
+            this.ListaPP = new System.Windows.Forms.DataGridView();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Imagen = new System.Windows.Forms.DataGridViewImageColumn();
+            this.B2 = new System.Windows.Forms.Button();
+            this.B1 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.Encabezado.SuspendLayout();
+            this.Pagina.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ListaPP)).BeginInit();
             this.SuspendLayout();
-            // 
-            // B1
-            // 
-            this.B1.BackColor = System.Drawing.Color.Gainsboro;
-            this.B1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.B1.Location = new System.Drawing.Point(152, 226);
-            this.B1.Name = "B1";
-            this.B1.Size = new System.Drawing.Size(184, 134);
-            this.B1.TabIndex = 0;
-            this.B1.Text = "Pedir Comida";
-            this.B1.UseVisualStyleBackColor = false;
-            this.B1.Click += new System.EventHandler(this.B1_Click);
             // 
             // Encabezado
             // 
@@ -70,18 +63,51 @@
             this.NEstado.TabIndex = 4;
             this.NEstado.Text = "Estado";
             // 
-            // panel2
+            // Pagina
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(178)))), ((int)(((byte)(44)))));
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 491);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(800, 81);
-            this.panel2.TabIndex = 2;
+            this.Pagina.Controls.Add(this.B1);
+            this.Pagina.Controls.Add(this.B2);
+            this.Pagina.Controls.Add(this.ListaPP);
+            this.Pagina.Controls.Add(this.panel1);
+            this.Pagina.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Pagina.Location = new System.Drawing.Point(0, 86);
+            this.Pagina.Name = "Pagina";
+            this.Pagina.Size = new System.Drawing.Size(800, 374);
+            this.Pagina.TabIndex = 4;
+            // 
+            // ListaPP
+            // 
+            this.ListaPP.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.ListaPP.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ID,
+            this.Imagen});
+            this.ListaPP.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ListaPP.Location = new System.Drawing.Point(0, 0);
+            this.ListaPP.Name = "ListaPP";
+            this.ListaPP.Size = new System.Drawing.Size(188, 274);
+            this.ListaPP.TabIndex = 4;
+            this.ListaPP.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.ImagenC);
+            // 
+            // ID
+            // 
+            this.ID.FillWeight = 40F;
+            this.ID.Frozen = true;
+            this.ID.HeaderText = "ID";
+            this.ID.Name = "ID";
+            this.ID.ReadOnly = true;
+            this.ID.Width = 40;
+            // 
+            // Imagen
+            // 
+            this.Imagen.Frozen = true;
+            this.Imagen.HeaderText = "Pedido";
+            this.Imagen.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.Imagen.Name = "Imagen";
+            this.Imagen.ReadOnly = true;
             // 
             // B2
             // 
-            this.B2.Location = new System.Drawing.Point(498, 226);
+            this.B2.Location = new System.Drawing.Point(515, 88);
             this.B2.Name = "B2";
             this.B2.Size = new System.Drawing.Size(184, 134);
             this.B2.TabIndex = 3;
@@ -89,38 +115,55 @@
             this.B2.UseVisualStyleBackColor = true;
             this.B2.Click += new System.EventHandler(this.B2_Click);
             // 
-            // Pagina
+            // B1
             // 
-            this.Pagina.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Pagina.Location = new System.Drawing.Point(0, 86);
-            this.Pagina.Name = "Pagina";
-            this.Pagina.Size = new System.Drawing.Size(800, 405);
-            this.Pagina.TabIndex = 4;
+            this.B1.BackColor = System.Drawing.Color.Gainsboro;
+            this.B1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.B1.Location = new System.Drawing.Point(266, 88);
+            this.B1.Name = "B1";
+            this.B1.Size = new System.Drawing.Size(184, 134);
+            this.B1.TabIndex = 3;
+            this.B1.Text = "Pedir Comida";
+            this.B1.UseVisualStyleBackColor = false;
+            this.B1.Click += new System.EventHandler(this.B1_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.Location = new System.Drawing.Point(0, 274);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(800, 100);
+            this.panel1.TabIndex = 5;
             // 
             // SistServicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 572);
-            this.Controls.Add(this.B1);
-            this.Controls.Add(this.B2);
+            this.ClientSize = new System.Drawing.Size(800, 460);
             this.Controls.Add(this.Pagina);
             this.Controls.Add(this.Encabezado);
-            this.Controls.Add(this.panel2);
             this.Name = "SistServicio";
             this.Text = "SistServicio";
+            this.Load += new System.EventHandler(this.SistServicio_Load);
+            this.SizeChanged += new System.EventHandler(this.Tamaño);
             this.Encabezado.ResumeLayout(false);
             this.Encabezado.PerformLayout();
+            this.Pagina.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ListaPP)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
         private System.Windows.Forms.Panel Encabezado;
-        private System.Windows.Forms.Panel panel2;
         public System.Windows.Forms.Label NEstado;
-        public System.Windows.Forms.Button B1;
-        public System.Windows.Forms.Button B2;
         private System.Windows.Forms.Panel Pagina;
+        public System.Windows.Forms.DataGridView ListaPP;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
+        private System.Windows.Forms.DataGridViewImageColumn Imagen;
+        public System.Windows.Forms.Button B2;
+        public System.Windows.Forms.Button B1;
+        private System.Windows.Forms.Panel panel1;
     }
 }

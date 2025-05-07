@@ -89,7 +89,7 @@ namespace Comida_DJZ
 
         private void B2_Click(object sender, EventArgs e)
         {
-            
+            estado.interaccionb2(this);
         }
 
         private void ImagenC(object sender, DataGridViewCellFormattingEventArgs e)

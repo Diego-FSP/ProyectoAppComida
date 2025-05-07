@@ -31,11 +31,11 @@
             this.Encabezado = new System.Windows.Forms.Panel();
             this.NEstado = new System.Windows.Forms.Label();
             this.Pagina = new System.Windows.Forms.Panel();
+            this.B1 = new System.Windows.Forms.Button();
+            this.B2 = new System.Windows.Forms.Button();
             this.ListaPP = new System.Windows.Forms.DataGridView();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Imagen = new System.Windows.Forms.DataGridViewImageColumn();
-            this.B2 = new System.Windows.Forms.Button();
-            this.B1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.Encabezado.SuspendLayout();
             this.Pagina.SuspendLayout();
@@ -75,6 +75,28 @@
             this.Pagina.Size = new System.Drawing.Size(800, 374);
             this.Pagina.TabIndex = 4;
             // 
+            // B1
+            // 
+            this.B1.BackColor = System.Drawing.Color.Gainsboro;
+            this.B1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.B1.Location = new System.Drawing.Point(266, 88);
+            this.B1.Name = "B1";
+            this.B1.Size = new System.Drawing.Size(184, 134);
+            this.B1.TabIndex = 3;
+            this.B1.Text = "Pedir Comida";
+            this.B1.UseVisualStyleBackColor = false;
+            this.B1.Click += new System.EventHandler(this.B1_Click);
+            // 
+            // B2
+            // 
+            this.B2.Location = new System.Drawing.Point(515, 88);
+            this.B2.Name = "B2";
+            this.B2.Size = new System.Drawing.Size(184, 134);
+            this.B2.TabIndex = 3;
+            this.B2.Text = "Calificar";
+            this.B2.UseVisualStyleBackColor = true;
+            this.B2.Click += new System.EventHandler(this.B2_Click);
+            // 
             // ListaPP
             // 
             this.ListaPP.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -84,7 +106,8 @@
             this.ListaPP.Dock = System.Windows.Forms.DockStyle.Left;
             this.ListaPP.Location = new System.Drawing.Point(0, 0);
             this.ListaPP.Name = "ListaPP";
-            this.ListaPP.Size = new System.Drawing.Size(188, 274);
+            this.ListaPP.RowHeadersVisible = false;
+            this.ListaPP.Size = new System.Drawing.Size(144, 274);
             this.ListaPP.TabIndex = 4;
             this.ListaPP.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.ImagenC);
             // 
@@ -104,28 +127,6 @@
             this.Imagen.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.Imagen.Name = "Imagen";
             this.Imagen.ReadOnly = true;
-            // 
-            // B2
-            // 
-            this.B2.Location = new System.Drawing.Point(515, 88);
-            this.B2.Name = "B2";
-            this.B2.Size = new System.Drawing.Size(184, 134);
-            this.B2.TabIndex = 3;
-            this.B2.Text = "Calificar";
-            this.B2.UseVisualStyleBackColor = true;
-            this.B2.Click += new System.EventHandler(this.B2_Click);
-            // 
-            // B1
-            // 
-            this.B1.BackColor = System.Drawing.Color.Gainsboro;
-            this.B1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.B1.Location = new System.Drawing.Point(266, 88);
-            this.B1.Name = "B1";
-            this.B1.Size = new System.Drawing.Size(184, 134);
-            this.B1.TabIndex = 3;
-            this.B1.Text = "Pedir Comida";
-            this.B1.UseVisualStyleBackColor = false;
-            this.B1.Click += new System.EventHandler(this.B1_Click);
             // 
             // panel1
             // 

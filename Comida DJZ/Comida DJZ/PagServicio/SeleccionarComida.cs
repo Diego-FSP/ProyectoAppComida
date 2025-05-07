@@ -50,14 +50,19 @@ namespace Comida_DJZ.PagServicio
 
         private void MostrarListaP()
         {
+            int d = 1;
             if (Padre.Compra != null)
                 foreach (Pedido p in Padre.Compra)
                 {
+                    p.dupla = d;
                     Padre.ListaPP.Rows.Add(
                         p.dupla,
                         p.Comida.IMG
                         );
+                    d++;
+                    Padre.ListaPP.Rows[p.dupla - 1].Height = 100;
                 }
+            
         }
 
         Form Pagina;
@@ -110,7 +115,7 @@ namespace Comida_DJZ.PagServicio
                     p.Comida = c;
                     p.IDPedido = 1;
                     p.PrecioF = c.precio;
-                    p.dupla = Padre.Compra.Count;
+                    p.dupla = 0;
                     byte condicion = 0;
                     if (Padre.Compra != null)
                         foreach (var co in Padre.Compra)

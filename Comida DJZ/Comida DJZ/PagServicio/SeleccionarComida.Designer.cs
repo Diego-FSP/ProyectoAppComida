@@ -44,6 +44,8 @@
             // 
             // ListaC
             // 
+            this.ListaC.AllowUserToAddRows = false;
+            this.ListaC.AllowUserToDeleteRows = false;
             this.ListaC.BackgroundColor = System.Drawing.Color.Beige;
             this.ListaC.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -65,7 +67,7 @@
             this.Descripcion});
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Lucida Handwriting", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -75,6 +77,7 @@
             this.ListaC.EnableHeadersVisualStyles = false;
             this.ListaC.Location = new System.Drawing.Point(0, 0);
             this.ListaC.Name = "ListaC";
+            this.ListaC.ReadOnly = true;
             this.ListaC.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
@@ -88,7 +91,7 @@
             this.ListaC.RowHeadersWidth = 40;
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle4.BackColor = System.Drawing.Color.Beige;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Lucida Handwriting", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(198)))), ((int)(((byte)(35)))));
             this.ListaC.RowsDefaultCellStyle = dataGridViewCellStyle4;
@@ -115,6 +118,7 @@
             this.Imagen.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.Imagen.MinimumWidth = 200;
             this.Imagen.Name = "Imagen";
+            this.Imagen.ReadOnly = true;
             this.Imagen.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.Imagen.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             this.Imagen.Width = 200;
@@ -123,21 +127,25 @@
             // 
             this.Nombre.HeaderText = "Comida";
             this.Nombre.Name = "Nombre";
+            this.Nombre.ReadOnly = true;
             // 
             // Cantidad
             // 
             this.Cantidad.HeaderText = "Disponible";
             this.Cantidad.Name = "Cantidad";
+            this.Cantidad.ReadOnly = true;
             // 
             // Precio
             // 
             this.Precio.HeaderText = "Precio";
             this.Precio.Name = "Precio";
+            this.Precio.ReadOnly = true;
             // 
             // Descripcion
             // 
             this.Descripcion.HeaderText = "Descripcion";
             this.Descripcion.Name = "Descripcion";
+            this.Descripcion.ReadOnly = true;
             // 
             // SeleccionarComida
             // 

@@ -15,7 +15,7 @@ VALUES
 ('Puré c/Milanesa', 12, 1700.00, 'Con salsa o sin salsa', 1);
 -- Paso 1: Insertar un pedido
 INSERT INTO Pedido (PrecioTotal, idMenu, cantidad)
-VALUES (1200.00, 3, 1);  -- esto crea un nuevo pedido con un ID nuevo
+VALUES (1200.00, 3, 5);  -- esto crea un nuevo pedido con un ID nuevo
 
 -- Paso 2: Consultar los idPedido válidos
 SELECT idPedido FROM Pedido;  -- esto te muestra todos los IDs válidos

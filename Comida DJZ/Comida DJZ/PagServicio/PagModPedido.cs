@@ -23,7 +23,7 @@ namespace Comida_DJZ.PagServicio
             Descripcion.Text = pedido.Comida.Descripcion;
             Cantidad.Text= pedido.Cantidad.ToString();
             padre = s;
-            IMG = (PictureBox)p.Comida.IMG;
+            IMG.Image = Image.FromFile(p.Comida.IMG.ToString());
         }
         public PagModPedido(Pedido p)
         {
@@ -32,7 +32,7 @@ namespace Comida_DJZ.PagServicio
             Comida.Text = pedido.Comida.Nombre;
             Descripcion.Text = pedido.Comida.Descripcion;
             Cantidad.Text = pedido.Cantidad.ToString();
-
+            IMG.Image = Image.FromFile(p.Comida.IMG.ToString());
         }
 
         private void MasC_Click(object sender, EventArgs e)

@@ -75,6 +75,7 @@
             this.ListaC.DefaultCellStyle = dataGridViewCellStyle2;
             this.ListaC.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ListaC.EnableHeadersVisualStyles = false;
+            this.ListaC.GridColor = System.Drawing.Color.DarkOrange;
             this.ListaC.Location = new System.Drawing.Point(0, 0);
             this.ListaC.Name = "ListaC";
             this.ListaC.ReadOnly = true;

@@ -101,6 +101,7 @@
     <Compile Include="Clases\Comida.cs" />
     <Compile Include="Clases\ConexionBD.cs" />
     <Compile Include="Clases\EstadoServ.cs" />
+    <Compile Include="Clases\ModfP.cs" />
     <Compile Include="Clases\Pedido.cs" />
     <Compile Include="Clases\ServicioInicio.cs" />
     <Compile Include="Clases\ServSeleccionarComida.cs" />
@@ -186,10 +187,10 @@
     <Content Include="IMG\Comidas\IDComida 1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="IMG\Comidas\IDComida 2.png">
+    <Content Include="IMG\Comidas\IDComida 3.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="IMG\Comidas\IDComida 3.png">
+    <Content Include="IMG\Comidas\IDComida 2.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="IMG\Comidas\IDComida 4.png">

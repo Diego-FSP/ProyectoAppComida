@@ -167,12 +167,20 @@ namespace Comida_DJZ.PagServicio
                 precio = 21431.32,
                 Descripcion = "Con salsa o sin salsa"
             };
-
+            var c5 = new MenuOBJ()
+            {
+                Nombre = "Milanesa con pure",
+                IDComida = 5,
+                Cantidad = 4,
+                precio = 21431.32,
+                Descripcion = "Con salsa o sin salsa"
+            };
 
             comidas.Add(c1);
             comidas.Add(c2);
             comidas.Add(c3);
             comidas.Add(c4);
+            comidas.Add(c5);
         }
     }
 

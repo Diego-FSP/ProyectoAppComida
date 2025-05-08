@@ -121,5 +121,10 @@ namespace Comida_DJZ
         {
             estado.posicion(this);
         }
+
+        private void EleccionP(object sender, DataGridViewCellEventArgs e)
+        {
+            estado.CPedido(this,e);
+        }
     }
 }

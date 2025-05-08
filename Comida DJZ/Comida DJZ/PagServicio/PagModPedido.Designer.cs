@@ -114,6 +114,7 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.Beige;
             this.panel1.Controls.Add(this.Comida);
             this.panel1.Controls.Add(this.Descripcion);
             this.panel1.Controls.Add(this.MenosC);

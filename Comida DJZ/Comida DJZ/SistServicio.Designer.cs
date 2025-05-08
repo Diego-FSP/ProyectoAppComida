@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.Encabezado = new System.Windows.Forms.Panel();
             this.NEstado = new System.Windows.Forms.Label();
             this.Pagina = new System.Windows.Forms.Panel();
@@ -99,16 +101,34 @@
             // 
             // ListaPP
             // 
+            this.ListaPP.BackgroundColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ListaPP.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.DarkOrange;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.DarkOrange;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ListaPP.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.ListaPP.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.ListaPP.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID,
             this.Imagen});
             this.ListaPP.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ListaPP.EnableHeadersVisualStyles = false;
+            this.ListaPP.GridColor = System.Drawing.Color.DarkOrange;
             this.ListaPP.Location = new System.Drawing.Point(0, 0);
             this.ListaPP.Name = "ListaPP";
+            this.ListaPP.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             this.ListaPP.RowHeadersVisible = false;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.ListaPP.RowsDefaultCellStyle = dataGridViewCellStyle2;
             this.ListaPP.Size = new System.Drawing.Size(144, 274);
             this.ListaPP.TabIndex = 4;
+            this.ListaPP.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.EleccionP);
             this.ListaPP.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.ImagenC);
             // 
             // ID

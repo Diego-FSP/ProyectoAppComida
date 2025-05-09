@@ -56,8 +56,8 @@ namespace Comida_DJZ.PagServicio
                 {
                     p.dupla = d;
                     Padre.ListaPP.Rows.Add(
-                        p.dupla,
-                        p.Comida.IMG
+                        p.Comida.IMG,
+                        p.Cantidad
                         );
                     d++;
                     Padre.ListaPP.Rows[p.dupla - 1].Height = 100;

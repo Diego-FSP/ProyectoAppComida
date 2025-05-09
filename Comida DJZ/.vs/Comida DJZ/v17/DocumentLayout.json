@@ -3,56 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\comida djz\\sistservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|solutionrelative:comida djz\\sistservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\comida djz\\pagservicio\\seleccionarcomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|solutionrelative:comida djz\\pagservicio\\seleccionarcomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|c:\\users\\diego fabricio\\documents\\github\\proyectoappcomida\\comida djz\\comida djz\\pagservicio\\pagmodpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|solutionrelative:comida djz\\pagservicio\\pagmodpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\comida djz\\pagservicio\\seleccionarcomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|solutionrelative:comida djz\\pagservicio\\seleccionarcomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|c:\\users\\diego fabricio\\documents\\github\\proyectoappcomida\\comida djz\\comida djz\\clases\\estadoserv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|solutionrelative:comida djz\\clases\\estadoserv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|c:\\users\\diego fabricio\\documents\\github\\proyectoappcomida\\comida djz\\comida djz\\pagservicio\\seleccionarcomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|solutionrelative:comida djz\\pagservicio\\seleccionarcomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|c:\\users\\diego fabricio\\documents\\github\\proyectoappcomida\\comida djz\\comida djz\\pagservicio\\pagmodpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\comida djz\\pagservicio\\pagmodpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|solutionrelative:comida djz\\pagservicio\\pagmodpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|c:\\users\\diego fabricio\\documents\\github\\proyectoappcomida\\comida djz\\comida djz\\sistservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|solutionrelative:comida djz\\sistservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|c:\\users\\diego fabricio\\documents\\github\\proyectoappcomida\\comida djz\\comida djz\\clases\\modfp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|solutionrelative:comida djz\\clases\\modfp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|c:\\users\\diego fabricio\\documents\\github\\proyectoappcomida\\comida djz\\comida djz\\clases\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|solutionrelative:comida djz\\clases\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|c:\\users\\diego fabricio\\documents\\github\\proyectoappcomida\\comida djz\\comida djz\\clases\\servicioinicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|solutionrelative:comida djz\\clases\\servicioinicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|c:\\users\\diego fabricio\\documents\\github\\proyectoappcomida\\comida djz\\comida djz\\sistservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|solutionrelative:comida djz\\sistservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|c:\\users\\diego fabricio\\documents\\github\\proyectoappcomida\\comida djz\\comida djz\\clases\\servseleccionarcomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\comida djz\\clases\\servseleccionarcomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|solutionrelative:comida djz\\clases\\servseleccionarcomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\comida djz\\sistservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|solutionrelative:comida djz\\sistservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\comida djz\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|solutionrelative:comida djz\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\comida djz\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|solutionrelative:comida djz\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\comida djz\\pagservicio\\seleccionarcomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|solutionrelative:comida djz\\pagservicio\\seleccionarcomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\comida djz\\clases\\servicioinicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|solutionrelative:comida djz\\clases\\servicioinicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\comida djz\\clases\\modfp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|solutionrelative:comida djz\\clases\\modfp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\comida djz\\clases\\estadoserv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|solutionrelative:comida djz\\clases\\estadoserv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\comida djz\\clases\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC04884-36FB-42D0-8F8E-A8AEE48762BD}|Comida DJZ\\Comida DJZ.csproj|solutionrelative:comida djz\\clases\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,24 +58,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 504,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "PagModPedido.cs",
               "DocumentMoniker": "C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\Comida DJZ\\PagServicio\\PagModPedido.cs",
               "RelativeDocumentMoniker": "Comida DJZ\\PagServicio\\PagModPedido.cs",
               "ToolTip": "C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\Comida DJZ\\PagServicio\\PagModPedido.cs",
               "RelativeToolTip": "Comida DJZ\\PagServicio\\PagModPedido.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwBkAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAmwEsAAABsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T01:23:31.742Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PagModPedido.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\Comida DJZ\\PagServicio\\PagModPedido.cs",
               "RelativeDocumentMoniker": "Comida DJZ\\PagServicio\\PagModPedido.cs",
@@ -91,20 +87,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "SeleccionarComida.cs",
               "DocumentMoniker": "C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\Comida DJZ\\PagServicio\\SeleccionarComida.cs",
               "RelativeDocumentMoniker": "Comida DJZ\\PagServicio\\SeleccionarComida.cs",
               "ToolTip": "C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\Comida DJZ\\PagServicio\\SeleccionarComida.cs",
               "RelativeToolTip": "Comida DJZ\\PagServicio\\SeleccionarComida.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwCMAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAmwDwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T01:10:08.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "EstadoServ.cs",
               "DocumentMoniker": "C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\Comida DJZ\\Clases\\EstadoServ.cs",
               "RelativeDocumentMoniker": "Comida DJZ\\Clases\\EstadoServ.cs",
@@ -117,20 +113,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "SistServicio.cs",
               "DocumentMoniker": "C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\Comida DJZ\\SistServicio.cs",
               "RelativeDocumentMoniker": "Comida DJZ\\SistServicio.cs",
               "ToolTip": "C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\Comida DJZ\\SistServicio.cs",
               "RelativeToolTip": "Comida DJZ\\SistServicio.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAwwH4AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAwwH4AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T01:03:04.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "SistServicio.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\Comida DJZ\\SistServicio.cs",
               "RelativeDocumentMoniker": "Comida DJZ\\SistServicio.cs",
@@ -155,33 +151,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "ServSeleccionarComida.cs",
               "DocumentMoniker": "C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\Comida DJZ\\Clases\\ServSeleccionarComida.cs",
               "RelativeDocumentMoniker": "Comida DJZ\\Clases\\ServSeleccionarComida.cs",
               "ToolTip": "C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\Comida DJZ\\Clases\\ServSeleccionarComida.cs",
               "RelativeToolTip": "Comida DJZ\\Clases\\ServSeleccionarComida.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T00:58:43.502Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "ModfP.cs",
               "DocumentMoniker": "C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\Comida DJZ\\Clases\\ModfP.cs",
               "RelativeDocumentMoniker": "Comida DJZ\\Clases\\ModfP.cs",
               "ToolTip": "C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\Comida DJZ\\Clases\\ModfP.cs",
               "RelativeToolTip": "Comida DJZ\\Clases\\ModfP.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAIwBcAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T00:57:59.029Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "SeleccionarComida.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\Comida DJZ\\PagServicio\\SeleccionarComida.cs",
               "RelativeDocumentMoniker": "Comida DJZ\\PagServicio\\SeleccionarComida.cs",
@@ -193,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 6,
               "Title": "Inicio.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\Comida DJZ\\Inicio.cs",
               "RelativeDocumentMoniker": "Comida DJZ\\Inicio.cs",
@@ -205,20 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Inicio.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\Comida DJZ\\Inicio.cs",
-              "RelativeDocumentMoniker": "Comida DJZ\\Inicio.cs",
-              "ToolTip": "C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\Comida DJZ\\Inicio.cs",
-              "RelativeToolTip": "Comida DJZ\\Inicio.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAIwA8AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T12:00:27.057Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "ConexionBD.cs",
               "DocumentMoniker": "C:\\Users\\Diego Fabricio\\Documents\\GitHub\\ProyectoAppComida\\Comida DJZ\\Comida DJZ\\Clases\\ConexionBD.cs",
               "RelativeDocumentMoniker": "Comida DJZ\\Clases\\ConexionBD.cs",

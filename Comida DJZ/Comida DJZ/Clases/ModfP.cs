@@ -21,7 +21,7 @@ namespace Comida_DJZ.Clases
 
         public override void CPedido(SistServicio s, DataGridViewCellEventArgs e)
         {
-            s.CambiarPagina(new PagModPedido(s.Compra[e.RowIndex]));
+            s.CambiarPagina(new PagModPedido(s.Compra[e.RowIndex], s.ListaPP));
             
         }
     }

@@ -69,6 +69,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.BotonAcceso);
             this.panel1.Controls.Add(this.Titulo);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(800, 450);
@@ -88,13 +89,18 @@
             // 
             // BotonAcceso
             // 
+            this.BotonAcceso.BackColor = System.Drawing.Color.OrangeRed;
+            this.BotonAcceso.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.BotonAcceso.FlatAppearance.BorderSize = 2;
+            this.BotonAcceso.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BotonAcceso.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BotonAcceso.ForeColor = System.Drawing.SystemColors.Control;
             this.BotonAcceso.Location = new System.Drawing.Point(339, 270);
             this.BotonAcceso.Name = "BotonAcceso";
             this.BotonAcceso.Size = new System.Drawing.Size(144, 64);
             this.BotonAcceso.TabIndex = 0;
             this.BotonAcceso.Text = "Iniciar";
-            this.BotonAcceso.UseVisualStyleBackColor = true;
+            this.BotonAcceso.UseVisualStyleBackColor = false;
             this.BotonAcceso.Click += new System.EventHandler(this.BotonAcceso_Click);
             // 
             // Contraseña

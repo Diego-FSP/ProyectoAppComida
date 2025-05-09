@@ -33,7 +33,7 @@ namespace Comida_DJZ.Clases
 
         public override void interaccionb2(SistServicio s)
         {
-            s.CambiarPagina(new PagModPedido(s.Compra[0]));
+            s.CambiarPagina(new PagModPedido(s.Compra[0],s.ListaPP));
             s.NEstado.Text = "Seleccion";
             s.B1.Text = "Regresar";
             s.B2.Text = "Siguiente";

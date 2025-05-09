@@ -21,7 +21,7 @@ namespace Comida_DJZ.Clases
             s.CambiarPagina(new SeleccionarComida(s));
             s.NEstado.Text = "Menu";
             s.B1.Text = "Regresar";
-            s.B2.Text = "Siguiente";
+            s.B2.Text = "Realizar Pedido";
             s.B2.Visible = false;
         }
     }

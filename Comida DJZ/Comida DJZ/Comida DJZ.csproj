@@ -100,17 +100,23 @@
   <ItemGroup>
     <Compile Include="Clases\Comida.cs" />
     <Compile Include="Clases\ConexionBD.cs" />
-    <Compile Include="Clases\EstadoServ.cs" />
-    <Compile Include="Clases\ModfP.cs" />
+    <Compile Include="PagServicio\EstadoServ\EstadoServ.cs" />
+    <Compile Include="PagServicio\EstadoServ\ModfP.cs" />
     <Compile Include="Clases\Pedido.cs" />
-    <Compile Include="Clases\ServicioInicio.cs" />
-    <Compile Include="Clases\ServSeleccionarComida.cs" />
+    <Compile Include="PagServicio\EstadoServ\ServicioInicio.cs" />
+    <Compile Include="PagServicio\EstadoServ\ServSeleccionarComida.cs" />
     <Compile Include="Clases\Ticked.cs" />
     <Compile Include="Inicio.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Inicio.Designer.cs">
       <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PagServicio\Pagar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PagServicio\Pagar.Designer.cs">
+      <DependentUpon>Pagar.cs</DependentUpon>
     </Compile>
     <Compile Include="PagServicio\PagModPedido.cs">
       <SubType>Form</SubType>
@@ -140,6 +146,9 @@
     </Compile>
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PagServicio\Pagar.resx">
+      <DependentUpon>Pagar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PagServicio\PagModPedido.resx">
       <DependentUpon>PagModPedido.cs</DependentUpon>

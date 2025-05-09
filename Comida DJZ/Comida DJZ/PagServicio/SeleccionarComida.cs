@@ -50,19 +50,7 @@ namespace Comida_DJZ.PagServicio
 
         private void MostrarListaP()
         {
-            int d = 1;
-            if (Padre.Compra != null)
-                foreach (Pedido p in Padre.Compra)
-                {
-                    p.dupla = d;
-                    Padre.ListaPP.Rows.Add(
-                        p.Comida.IMG,
-                        p.Cantidad
-                        );
-                    d++;
-                    Padre.ListaPP.Rows[p.dupla - 1].Height = 100;
-                }
-            
+            Padre.MostrarListaP();
         }
 
         Form Pagina;
@@ -108,6 +96,7 @@ namespace Comida_DJZ.PagServicio
 
         private void ListaC_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
+            if(e.RowIndex>=0)
             foreach (MenuOBJ c in comidas)
                 if (c.IDComida == Convert.ToInt32(ListaC[0, e.RowIndex].Value) )
                 {

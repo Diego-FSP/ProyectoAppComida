@@ -36,9 +36,9 @@
             this.B1 = new System.Windows.Forms.Button();
             this.B2 = new System.Windows.Forms.Button();
             this.ListaPP = new System.Windows.Forms.DataGridView();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.Imagen = new System.Windows.Forms.DataGridViewImageColumn();
             this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.Encabezado.SuspendLayout();
             this.Pagina.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ListaPP)).BeginInit();
@@ -79,10 +79,11 @@
             // 
             // B1
             // 
-            this.B1.BackColor = System.Drawing.Color.OrangeRed;
+            this.B1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.B1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.B1.FlatAppearance.BorderSize = 2;
             this.B1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.B1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B1.ForeColor = System.Drawing.SystemColors.Control;
             this.B1.Location = new System.Drawing.Point(266, 88);
             this.B1.Name = "B1";
@@ -94,10 +95,11 @@
             // 
             // B2
             // 
-            this.B2.BackColor = System.Drawing.Color.OrangeRed;
+            this.B2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.B2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.B2.FlatAppearance.BorderSize = 2;
             this.B2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.B2.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B2.ForeColor = System.Drawing.SystemColors.Control;
             this.B2.Location = new System.Drawing.Point(515, 88);
             this.B2.Name = "B2";
@@ -105,10 +107,13 @@
             this.B2.TabIndex = 3;
             this.B2.Text = "Calificar";
             this.B2.UseVisualStyleBackColor = false;
+            this.B2.Visible = false;
             this.B2.Click += new System.EventHandler(this.B2_Click);
             // 
             // ListaPP
             // 
+            this.ListaPP.AllowUserToAddRows = false;
+            this.ListaPP.AllowUserToDeleteRows = false;
             this.ListaPP.BackgroundColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ListaPP.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -128,6 +133,7 @@
             this.ListaPP.GridColor = System.Drawing.Color.DarkOrange;
             this.ListaPP.Location = new System.Drawing.Point(0, 0);
             this.ListaPP.Name = "ListaPP";
+            this.ListaPP.ReadOnly = true;
             this.ListaPP.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             this.ListaPP.RowHeadersVisible = false;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -140,15 +146,6 @@
             this.ListaPP.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.EleccionP);
             this.ListaPP.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.EleccionP);
             this.ListaPP.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.ImagenC);
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(178)))), ((int)(((byte)(44)))));
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 274);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(800, 100);
-            this.panel1.TabIndex = 5;
             // 
             // Imagen
             // 
@@ -166,6 +163,15 @@
             this.Cantidad.Name = "Cantidad";
             this.Cantidad.ReadOnly = true;
             this.Cantidad.Width = 40;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(178)))), ((int)(((byte)(44)))));
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.Location = new System.Drawing.Point(0, 274);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(800, 100);
+            this.panel1.TabIndex = 5;
             // 
             // SistServicio
             // 

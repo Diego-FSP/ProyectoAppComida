@@ -126,5 +126,23 @@ namespace Comida_DJZ
         {
             estado.CPedido(this,e);
         }
+
+        public void MostrarListaP()
+        {
+            ListaPP.Rows.Clear();
+            int d = 1;
+            if (Compra != null)
+                foreach (Pedido p in Compra)
+                {
+                    p.dupla = d;
+                    ListaPP.Rows.Add(
+                        p.Comida.IMG,
+                        p.Cantidad
+                        );
+                    d++;
+                    ListaPP.Rows[p.dupla - 1].Height = 100;
+                }
+
+        }
     }
 }

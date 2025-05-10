@@ -66,9 +66,11 @@
             // 
             this.MasC.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.MasC.FlatAppearance.BorderSize = 2;
+            this.MasC.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.MasC.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.MasC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MasC.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MasC.Location = new System.Drawing.Point(204, 283);
+            this.MasC.Location = new System.Drawing.Point(218, 283);
             this.MasC.Name = "MasC";
             this.MasC.Size = new System.Drawing.Size(45, 34);
             this.MasC.TabIndex = 3;
@@ -80,6 +82,8 @@
             // 
             this.MenosC.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.MenosC.FlatAppearance.BorderSize = 2;
+            this.MenosC.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.MenosC.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.MenosC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MenosC.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MenosC.Location = new System.Drawing.Point(127, 283);
@@ -108,7 +112,7 @@
             this.IMG.Location = new System.Drawing.Point(0, 0);
             this.IMG.Name = "IMG";
             this.IMG.Size = new System.Drawing.Size(352, 376);
-            this.IMG.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.IMG.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.IMG.TabIndex = 1;
             this.IMG.TabStop = false;
             // 
@@ -116,6 +120,8 @@
             // 
             this.Descripcion.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Descripcion.FlatAppearance.BorderSize = 3;
+            this.Descripcion.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.Descripcion.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.Descripcion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Descripcion.Font = new System.Drawing.Font("MV Boli", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Descripcion.Location = new System.Drawing.Point(0, 68);

@@ -193,19 +193,28 @@
     <None Include="IMG\Iconos\Admin.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="IMG\Comidas\IDComida 1.png">
+    <Content Include="IMG\Comidas\IDMenu 1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="IMG\Comidas\IDComida 3.png">
+    <Content Include="IMG\Comidas\IDMenu 3.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="IMG\Comidas\IDComida 2.png">
+    <Content Include="IMG\Comidas\IDMenu 2.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="IMG\Comidas\IDComida 4.png">
+    <Content Include="IMG\Comidas\IDMenu 4.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="IMG\Comidas\IDComida 5.png">
+    <Content Include="IMG\Comidas\IDMenu 5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="IMG\Comidas\IDMenu 8.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="IMG\Comidas\IDMenu 7.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="IMG\Comidas\IDMenu 6.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

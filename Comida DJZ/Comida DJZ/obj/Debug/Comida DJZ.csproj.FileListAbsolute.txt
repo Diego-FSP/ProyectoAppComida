@@ -31,11 +31,6 @@ C:\Users\Lab15-PC01\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin
 C:\Users\Lab15-PC01\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\IMG\Comidas\IDComida 3.png
 C:\Users\Lab15-PC01\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\IMG\Comidas\IDComida 4.png
 C:\Users\Lab15-PC01\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\IMG\Comidas\IDComida 5.png
-C:\Users\Diego Fabricio\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\IMG\Comidas\IDComida 1.png
-C:\Users\Diego Fabricio\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\IMG\Comidas\IDComida 2.png
-C:\Users\Diego Fabricio\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\IMG\Comidas\IDComida 3.png
-C:\Users\Diego Fabricio\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\IMG\Comidas\IDComida 4.png
-C:\Users\Diego Fabricio\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\IMG\Comidas\IDComida 5.png
 C:\Users\Lab15-PC01\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\BouncyCastle.Cryptography.dll
 C:\Users\Lab15-PC01\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\Google.Protobuf.dll
 C:\Users\Lab15-PC01\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\K4os.Compression.LZ4.dll
@@ -102,3 +97,12 @@ C:\Users\Diego Fabricio\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ
 C:\Users\Diego Fabricio\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Diego Fabricio\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Diego Fabricio\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\obj\Debug\Comida DJZ.csproj.Up2Date
+C:\Users\Diego Fabricio\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\obj\Debug\Comida_DJZ.PagServicio.Pagar.resources
+C:\Users\Diego Fabricio\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\IMG\Comidas\IDMenu 1.png
+C:\Users\Diego Fabricio\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\IMG\Comidas\IDMenu 3.png
+C:\Users\Diego Fabricio\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\IMG\Comidas\IDMenu 2.png
+C:\Users\Diego Fabricio\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\IMG\Comidas\IDMenu 4.png
+C:\Users\Diego Fabricio\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\IMG\Comidas\IDMenu 5.png
+C:\Users\Diego Fabricio\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\IMG\Comidas\IDMenu 8.png
+C:\Users\Diego Fabricio\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\IMG\Comidas\IDMenu 7.png
+C:\Users\Diego Fabricio\Documents\GitHub\ProyectoAppComida\Comida DJZ\Comida DJZ\bin\Debug\IMG\Comidas\IDMenu 6.png

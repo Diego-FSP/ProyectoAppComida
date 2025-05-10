@@ -16,7 +16,7 @@ namespace Comida_DJZ.PagServicio
     {
         public SistServicio Padre;
         public List<MenuOBJ> comidas = new List<MenuOBJ>();
-        
+        public int IDTipo = 0;
         public SeleccionarComida(SistServicio p)
         {
             InitializeComponent();
@@ -31,19 +31,22 @@ namespace Comida_DJZ.PagServicio
 
         void MostrarComida()
         {
+            ListaC.Rows.Clear();
+            int r = 0;
             foreach(MenuOBJ c in comidas)
+            if(c.IDTipo==IDTipo)
             {
-                c.IMG= @"IMG\Comidas\IDComida " + c.IDComida + ".png";
+                c.IMG= @"IMG\Comidas\IDMenu " + c.IDMenu + ".png";
                 ListaC.Rows.Add
                     (
-                        c.IDComida,
+                        c.IDMenu,
                         c.IMG,
                         c.Nombre,
                         c.Cantidad,
-                        "$" + c.precio,
-                        c.Descripcion
+                        "$" + c.precio
                 );
-                ListaC.Rows[c.IDComida-1].Height = 200;
+                ListaC.Rows[r].Height = 200;
+                    r++;
 
             }
         }
@@ -56,21 +59,32 @@ namespace Comida_DJZ.PagServicio
         Form Pagina;
         private void ListaCOP()
         {
-            for (int t = 5; t > 1; t--)
+            for (int t = 4; t > 1; t--)
             {
-                ListaC.Columns[t].Width = (ListaC.Width - 70) / 6;
+                ListaC.Columns[t].Width = (ListaC.Width - 80) / 5;
             }
-            ListaC.Columns[1].Width = (ListaC.Width-70) / 3;
+            ListaC.Columns[1].Width = (ListaC.Width-220) / 2;
 
             float c = (ListaC.Width / 76) ;
             if(c>0)
             ListaC.RowsDefaultCellStyle.Font = new System.Drawing.Font(ListaC.RowsDefaultCellStyle.Font.Name, c, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0))); ;
         }
 
+        private void BP()
+        {
+            Bcomida.Width = this.Width / 3;
+            Bbebida.Width = this.Width / 3;
+            Bpostre.Width = this.Width / 3;
+
+            Bbebida.Location = new Point(Bcomida.Width + 1,Bbebida.Location.Y);
+            Bpostre.Location = new Point(Bbebida.Location.X + Bbebida.Width + 1, Bpostre.Location.Y);
+        }
+
         
         private void SeleccionarComida_SizeChanged(object sender, EventArgs e)
         {
             ListaCOP();
+            BP();
         }//DataGridViewCellStyle { BackColor=Color [Beige], ForeColor=Color [A=255, R=192, G=64, B=0], SelectionBackColor=Color [A=255, R=243, G=198, B=35], Font=[Font: Name=Lucida Handwriting, Size=8.25, Units=3, GdiCharSet=0, GdiVerticalFont=False], Alignment=MiddleCenter } Microsoft YaHei
 
 
@@ -98,7 +112,7 @@ namespace Comida_DJZ.PagServicio
         {
             if(e.RowIndex>=0)
             foreach (MenuOBJ c in comidas)
-                if (c.IDComida == Convert.ToInt32(ListaC[0, e.RowIndex].Value) )
+                if (c.IDMenu == Convert.ToInt32(ListaC[0, e.RowIndex].Value) )
                 {
                     Pedido p = new Pedido();
                     p.Comida = c;
@@ -108,7 +122,7 @@ namespace Comida_DJZ.PagServicio
                     byte condicion = 0;
                     if (Padre.Compra != null)
                         foreach (var co in Padre.Compra)
-                            if (co.Comida.IDComida == c.IDComida)
+                            if (co.Comida.IDMenu == c.IDMenu)
                                 condicion++;
 
                     if (condicion==0)
@@ -127,42 +141,74 @@ namespace Comida_DJZ.PagServicio
             var c1 = new MenuOBJ()
             {
                 Nombre = "Empanadas",
-                IDComida = 1,
+                IDMenu = 1,
                 Cantidad = 30,
                 precio = 10000.00,
-                Descripcion = "Carne cortada"
+                Descripcion = "Carne cortada",
+                IDTipo = 0
             };
             var c2 = new MenuOBJ()
             {
                 Nombre = "Pollo Broster",
-                IDComida = 2,
+                IDMenu = 2,
                 Cantidad = 2,
                 precio = 123823.23,
-                Descripcion = "Crujiente y jugoso"
+                Descripcion = "Crujiente y jugoso",
+                IDTipo = 0
             };
             var c3 = new MenuOBJ()
             {
                 Nombre = "Hamburguesa",
-                IDComida = 3,
+                IDMenu = 3,
                 Cantidad = 1,
                 precio = 23124.1,
-                Descripcion = "Clásica con queso"
+                Descripcion = "Clásica con queso",
+                IDTipo = 0
             };
             var c4 = new MenuOBJ()
             {
                 Nombre = "Salchipapa",
-                IDComida = 4,
+                IDMenu = 4,
                 Cantidad = 4,
                 precio = 21431.32,
-                Descripcion = "Con salsa o sin salsa"
+                Descripcion = "Con salsa o sin salsa",
+                IDTipo = 0
             };
             var c5 = new MenuOBJ()
             {
                 Nombre = "Milanesa con pure",
-                IDComida = 5,
+                IDMenu = 5,
                 Cantidad = 4,
                 precio = 21431.32,
-                Descripcion = "Con salsa o sin salsa"
+                Descripcion = "Con salsa o sin salsa",
+                IDTipo = 0
+            };
+            var c6 = new MenuOBJ()
+            {
+                Nombre = "Jugo de Naranja",
+                IDMenu = 6,
+                Cantidad = 4,
+                precio = 21431.32,
+                Descripcion = "Con salsa o sin salsa",
+                IDTipo = 1
+            };
+            var c7 = new MenuOBJ()
+            {
+                Nombre = "Limonada",
+                IDMenu = 7,
+                Cantidad = 4,
+                precio = 21431.32,
+                Descripcion = "Limon licuado y hielo",
+                IDTipo = 1
+            };
+            var c8 = new MenuOBJ()
+            {
+                Nombre = "Chica Morada",
+                IDMenu = 8,
+                Cantidad = 4,
+                precio = 21431.32,
+                Descripcion = "Con salsa o sin salsa",
+                IDTipo = 1
             };
 
             comidas.Add(c1);
@@ -170,6 +216,27 @@ namespace Comida_DJZ.PagServicio
             comidas.Add(c3);
             comidas.Add(c4);
             comidas.Add(c5);
+            comidas.Add(c6);
+            comidas.Add(c7);
+            comidas.Add(c8);
+        }
+
+        private void Bcomida_Click(object sender, EventArgs e)
+        {
+            IDTipo = 0;
+            MostrarComida();
+        }
+
+        private void Bbebida_Click(object sender, EventArgs e)
+        {
+            IDTipo = 1;
+            MostrarComida();
+        }
+
+        private void Bpostre_Click(object sender, EventArgs e)
+        {
+            IDTipo = 2;
+            MostrarComida();
         }
     }
 

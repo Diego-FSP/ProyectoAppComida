@@ -8,11 +8,12 @@ namespace Comida_DJZ.Clases
 {
     public class MenuOBJ
     {
-        public int IDComida { get; set; }
+        public int IDMenu { get; set; }
         public string Nombre { get; set; }
         public int Cantidad { get; set; }
         public double precio { get; set; }
         public string Descripcion { get; set; }
         public object IMG { get; set; }
+        public int IDTipo { get; set; }
     }
 }

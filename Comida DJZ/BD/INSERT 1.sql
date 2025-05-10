@@ -12,7 +12,15 @@ VALUES
 ('Pollo Broster', 10, 1800.00, 'Crujiente y jugoso', 1),
 ('Hamburguesa', 15, 1200.00, 'Clásica con queso', 1),
 ('Salchipapa', 20, 1000.00, 'Papas con salchichas', 1),
-('Puré c/Milanesa', 12, 1700.00, 'Con salsa o sin salsa', 1);
+('Puré c/Milanesa', 12, 1700.00, 'Con salsa o sin salsa', 1),
+-- bebidas
+('Limonada', 12, 1000.00, 'Con extracto de pulpa de Naranja', 2),
+('Jugo de Naranja', 12, 1000.00, 'Con extracto de pulpa de Naranja', 2),
+('Chicha Morada', 12, 1000.00, 'Con extracto de pulpa de Naranja', 2),
+-- postres
+('Flan', 12, 1000.00, 'Con extracto de pulpa de Naranja', 3),
+('Pastel de Chocolate', 12, 1000.00, 'Con extracto de pulpa de Naranja', 3),
+('Helado de fresa', 13, 3000.00, 'Bien cremoso con extracto de frutilla', 3);
 -- Paso 1: Insertar un pedido
 INSERT INTO Pedido (PrecioTotal, idMenu, cantidad)
 VALUES (1200.00, 3, 5);  -- esto crea un nuevo pedido con un ID nuevo

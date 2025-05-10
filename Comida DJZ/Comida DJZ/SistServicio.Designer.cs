@@ -82,6 +82,8 @@
             this.B1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.B1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.B1.FlatAppearance.BorderSize = 2;
+            this.B1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orange;
+            this.B1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.B1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B1.ForeColor = System.Drawing.SystemColors.Control;
@@ -98,6 +100,8 @@
             this.B2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.B2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.B2.FlatAppearance.BorderSize = 2;
+            this.B2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orange;
+            this.B2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.B2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B2.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B2.ForeColor = System.Drawing.SystemColors.Control;

@@ -32,6 +32,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SeleccionarComida));
             this.ListaC = new System.Windows.Forms.DataGridView();
             this.ID = new System.Windows.Forms.DataGridViewButtonColumn();
             this.Imagen = new System.Windows.Forms.DataGridViewImageColumn();
@@ -39,9 +40,9 @@
             this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.Bcomida = new System.Windows.Forms.Button();
-            this.Bbebida = new System.Windows.Forms.Button();
             this.Bpostre = new System.Windows.Forms.Button();
+            this.Bbebida = new System.Windows.Forms.Button();
+            this.Bcomida = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.ListaC)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -158,35 +159,45 @@
             this.panel1.Size = new System.Drawing.Size(800, 60);
             this.panel1.TabIndex = 1;
             // 
-            // Bcomida
-            // 
-            this.Bcomida.Location = new System.Drawing.Point(0, 0);
-            this.Bcomida.Name = "Bcomida";
-            this.Bcomida.Size = new System.Drawing.Size(254, 60);
-            this.Bcomida.TabIndex = 0;
-            this.Bcomida.Text = "Comida";
-            this.Bcomida.UseVisualStyleBackColor = true;
-            this.Bcomida.Click += new System.EventHandler(this.Bcomida_Click);
-            // 
-            // Bbebida
-            // 
-            this.Bbebida.Location = new System.Drawing.Point(260, 0);
-            this.Bbebida.Name = "Bbebida";
-            this.Bbebida.Size = new System.Drawing.Size(276, 60);
-            this.Bbebida.TabIndex = 1;
-            this.Bbebida.Text = "Bebidas";
-            this.Bbebida.UseVisualStyleBackColor = true;
-            this.Bbebida.Click += new System.EventHandler(this.Bbebida_Click);
-            // 
             // Bpostre
             // 
+            this.Bpostre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Bpostre.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Bpostre.BackgroundImage")));
+            this.Bpostre.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Bpostre.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Bpostre.Location = new System.Drawing.Point(542, 0);
             this.Bpostre.Name = "Bpostre";
             this.Bpostre.Size = new System.Drawing.Size(258, 60);
             this.Bpostre.TabIndex = 2;
-            this.Bpostre.Text = "Postres";
-            this.Bpostre.UseVisualStyleBackColor = true;
+            this.Bpostre.UseVisualStyleBackColor = false;
             this.Bpostre.Click += new System.EventHandler(this.Bpostre_Click);
+            // 
+            // Bbebida
+            // 
+            this.Bbebida.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Bbebida.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Bbebida.BackgroundImage")));
+            this.Bbebida.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Bbebida.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Bbebida.Location = new System.Drawing.Point(260, 0);
+            this.Bbebida.Name = "Bbebida";
+            this.Bbebida.Size = new System.Drawing.Size(276, 60);
+            this.Bbebida.TabIndex = 1;
+            this.Bbebida.UseVisualStyleBackColor = false;
+            this.Bbebida.Click += new System.EventHandler(this.Bbebida_Click);
+            // 
+            // Bcomida
+            // 
+            this.Bcomida.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Bcomida.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Bcomida.BackgroundImage")));
+            this.Bcomida.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Bcomida.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Bcomida.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Bcomida.Location = new System.Drawing.Point(0, 0);
+            this.Bcomida.Name = "Bcomida";
+            this.Bcomida.Size = new System.Drawing.Size(254, 60);
+            this.Bcomida.TabIndex = 0;
+            this.Bcomida.UseVisualStyleBackColor = false;
+            this.Bcomida.Click += new System.EventHandler(this.Bcomida_Click);
             // 
             // SeleccionarComida
             // 
